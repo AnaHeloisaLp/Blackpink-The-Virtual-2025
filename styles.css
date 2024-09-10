@@ -7,7 +7,7 @@
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
+    color: var(--cor-de-fundo);
 }
 
 *{
@@ -19,4 +19,6 @@ body {
     background-image: url("https://w0.peakpx.com/wallpaper/351/768/HD-wallpaper-pubg-blackpink-avatar.jpg");
 }
 
-
+.container {
+    height: 100vh;
+}
