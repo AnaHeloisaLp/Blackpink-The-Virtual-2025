@@ -1,24 +1,54 @@
-:root {
-    --branco-principal: #FFFFFF;
-    --rosa-segundario: #EA90B8;
-    --botao-rosa-escuro: #F43288;
-    --cor-de-fundo: #000000;
-}
-
 body {
-    background-color: var(--cor-de-fundo);
-    color: var(--cor-de-fundo);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
 }
 
-*{
-    margin: 0;
+header {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
     padding: 0;
 }
 
-.principal {
-    background-image: url("https://w0.peakpx.com/wallpaper/351/768/HD-wallpaper-pubg-blackpink-avatar.jpg");
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-.container {
-    height: 100vh;
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff4c4c;
+    color: white;
 }
