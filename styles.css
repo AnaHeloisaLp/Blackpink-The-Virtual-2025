@@ -1,112 +1,72 @@
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #000000; /* Preto */
-    color: #FFC0CB; /* Rosa claro */
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #111111; /* Preto mais escuro */
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
 }
 
-.logo img {
-    width: 150px;
+header h1 {
+    margin: 0;
 }
 
 nav ul {
-    display: flex;
-    list-style-type: none;
+    list-style: none;
+    padding: 0;
 }
 
 nav ul li {
-    margin-left: 20px;
+    display: inline;
+    margin-right: 15px;
 }
 
 nav ul li a {
-    color: #FFC0CB;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-#hero {
-    height: 80vh;
-    background: url('hero-bg.jpg') no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
-    text-align: center;
-}
-
-.hero-content h1 {
-    font-size: 50px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-
-.hero-content p {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.btn {
-    background-color: #FFC0CB;
-    color: #111111;
-    padding: 10px 20px;
     text-decoration: none;
-    font-weight: bold;
-    border-radius: 25px;
-    transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-    background-color: #ff99aa;
+main {
+    padding: 20px;
 }
 
 section {
-    padding: 50px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.livros-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.livro {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
     text-align: center;
 }
 
-#about {
-    background-color: #1a1a1a;
-}
-
-#tickets .ticket-options {
-    display: flex;
-    justify-content: space-around;
-}
-
-.ticket {
-    background-color: #FFC0CB;
-    padding: 20px;
-    border-radius: 10px;
-    width: 200px;
-}
-
-#gallery .gallery-grid {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-#gallery img {
-    width: 200px;
-    border-radius: 10px;
+.livro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 footer {
-    background-color: #111111;
-    color: #FFC0CB;
-    padding: 20px;
     text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
 }
